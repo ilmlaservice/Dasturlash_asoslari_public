@@ -1,9 +1,7 @@
+### 1-modul: Front-end asoslari va asosiy vositalar
 <!-- HTML 1 -->
 <details>
-   <summary>1-modul: Front-end asoslari va asosiy vositalar</summary>
-
-
-**HTML asoslari (HTML Essentials / Основы HTML)**
+   <summary>HTML asoslari (HTML Essentials / Основы HTML)</summary>
 
 **Dars uchun qo'llanma**
 
