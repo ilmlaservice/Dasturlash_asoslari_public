@@ -64,41 +64,11 @@ Endi o'qituvchingiz bilan birgalikda quyidagi vazifalarni bajaring:
     * O'zgaruvchilarga turli xil qiymatlar bering va ularni konsolga chiqaring.
     * `typeof` operatori yordamida o'zgaruvchilarning turini aniqlang va konsolga chiqaring.
 
-    ```javascript
-    let shahar = "Samarqand";
-    let aholiSoni = 546723;
-    let qadimiyShahar = true;
-    
-    console.log(shahar);
-    console.log(typeof shahar); // "string"
-    console.log(aholiSoni);
-    console.log(typeof aholiSoni); // "number"
-    console.log(qadimiyShahar);
-    console.log(typeof qadimiyShahar); // "boolean"
-    ```
-
 * **Vazifa 6: Operatorlar bilan ishlang.**
     * Foydalanuvchidan ikkita sonni so'rang.
     * Bu sonlar ustida qo'shish, ayirish, ko'paytirish va bo'lish amallarini bajaring.
     * Natijalarni konsolga chiqaring.
     * Foydalanuvchidan ismini so'rang va uni "Salom, [ism]!" shaklida konsolga chiqaring.
-
-    ```javascript
-    let son1 = prompt("Birinchi sonni kiriting:");
-    let son2 = prompt("Ikkinchi sonni kiriting:");
-    
-    // Sonlarni raqamga o'tkazish
-    son1 = Number(son1);
-    son2 = Number(son2);
-    
-    console.log("Yig'indi: " + (son1 + son2));
-    console.log("Ayirma: " + (son1 - son2));
-    console.log("Ko'paytma: " + (son1 * son2));
-    console.log("Bo'linma: " + (son1 / son2));
-    
-    let ism = prompt("Ismingizni kiriting:");
-    console.log("Salom, " + ism + "!");
-    ```
 
 * **Vazifa 7: Taqqoslash operatorlari bilan ishlang.**
     * Foydalanuvchidan ikkita sonni so'rang.
@@ -131,48 +101,17 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * `typeof` operatori yordamida o'zgaruvchilarning turini aniqlang va konsolga chiqaring.
     * O'zgaruvchilarning qiymatlarini o'zgartirib ko'ring va natijalarni konsolga chiqaring.
 
-    ```javascript
-    let ism = "Ali";
-    console.log(ism); // "Ali"
-    console.log(typeof ism); // "string"
-    
-    ism = "Vali"; // Qiymatni o'zgartirish
-    console.log(ism); // "Vali"
-    ```
 
 * **2-vazifa:  "Matematik amallar"**
     * Foydalanuvchidan uchta sonni so'rang.
     * Bu sonlarning o'rta arifmetigini hisoblang.
     * Natijani konsolga chiqaring.
 
-    ```javascript
-    let son1 = Number(prompt("Birinchi sonni kiriting:"));
-    let son2 = Number(prompt("Ikkinchi sonni kiriting:"));
-    let son3 = Number(prompt("Uchinchi sonni kiriting:"));
-    
-    let ortaArifmetik = (son1 + son2 + son3) / 3;
-    console.log("O'rta arifmetik: " + ortaArifmetik);
-    ```
 
 * **3-vazifa:  "Eng katta son"**
     * Foydalanuvchidan uchta sonni so'rang.
     * Bu sonlarning eng kattasini toping va konsolga chiqaring.
 
-    ```javascript
-    let son1 = Number(prompt("Birinchi sonni kiriting:"));
-    let son2 = Number(prompt("Ikkinchi sonni kiriting:"));
-    let son3 = Number(prompt("Uchinchi sonni kiriting:"));
-    
-    let engKattaSon = son1;
-    if (son2 > engKattaSon) {
-      engKattaSon = son2;
-    }
-    if (son3 > engKattaSon) {
-      engKattaSon = son3;
-    }
-    
-    console.log("Eng katta son: " + engKattaSon);
-    ```
 </details>
 
 
@@ -304,71 +243,27 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * `if` operatori yordamida sonning musbat, manfiy yoki nolga teng ekanligini aniqlang.
     * Natijani konsolga chiqaring.
 
-    ```javascript
-    let son = Number(prompt("Son kiriting:"));
-    
-    if (son > 0) {
-      console.log("Son musbat");
-    } else if (son < 0) {
-      console.log("Son manfiy");
-    } else {
-      console.log("Son nolga teng");
-    }
-    ```
 
 * **2-vazifa:  "Eng katta son"**
     * Foydalanuvchidan ikkita sonni so'rang.
     * `if` operatori yordamida qaysi son kattaroq ekanligini aniqlang.
     * Natijani konsolga chiqaring.
 
-    ```javascript
-    let son1 = Number(prompt("Birinchi sonni kiriting:"));
-    let son2 = Number(prompt("Ikkinchi sonni kiriting:"));
-    
-    if (son1 > son2) {
-      console.log("Birinchi son kattaroq");
-    } else if (son1 < son2) {
-      console.log("Ikkinchi son kattaroq");
-    } else {
-      console.log("Ikkala son teng");
-    }
-    ```
 
 * **3-vazifa:  "Kvadratning yuzasi"**
     * Foydalanuvchidan kvadratning tomonini so'rang.
     * Kvadratning yuzini hisoblang.
     * Natijani konsolga chiqaring.
 
-    ```javascript
-    let tomon = Number(prompt("Kvadratning tomonini kiriting:"));
-    let yuza = tomon * tomon;
-    console.log("Kvadratning yuzasi: " + yuza);
-    ```
-
 * **4-vazifa:  "1 dan N gacha bo'lgan sonlar yig'indisi"**
     * Foydalanuvchidan sonni so'rang (`N`).
     * `for` sikli yordamida 1 dan `N` gacha bo'lgan sonlarning yig'indisini hisoblang.
     * Natijani konsolga chiqaring.
 
-    ```javascript
-    let N = Number(prompt("Son kiriting:"));
-    let yigindi = 0;
-    
-    for (let i = 1; i <= N; i++) {
-      yigindi += i;
-    }
-    
-    console.log("1 dan " + N + " gacha bo'lgan sonlarning yig'indisi: " + yigindi);
-    ```
 
 * **5-vazifa:  "Juft sonlar"**
     * `for` sikli yordamida 1 dan 50 gacha bo'lgan juft sonlarni konsolga chiqaring.
 
-    ```javascript
-    for (let i = 2; i <= 50; i += 2) {
-      console.log(i);
-    }
-    ```
 
 **(Murakkabroq vazifalar)**
 
@@ -384,43 +279,12 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     *****
     ```
 
-    ```javascript
-    let qatorlarSoni = Number(prompt("Qatorlar sonini kiriting:"));
-    
-    for (let i = 1; i <= qatorlarSoni; i++) {
-      let yulduzchalar = "";
-      for (let j = 1; j <= i; j++) {
-        yulduzchalar += "*";
-      }
-      console.log(yulduzchalar);
-    }
-    ```
 
 * **7-vazifa:  "Sonni topish"**
     * 1 dan 100 gacha tasodifiy son o'ylang.
     * `while` sikli yordamida foydalanuvchidan sonni topishni so'rang.
     * Foydalanuvchi to'g'ri topmaguncha siklni takrorlang.
     * Foydalanuvchi to'g'ri topgandan so'ng, "Tabriklaymiz, siz to'g'ri topdingiz!" xabarini va foydalanuvchi necha marta urinib ko'rganini konsolga chiqaring.
-
-    ```javascript
-    let oylanganSon = Math.floor(Math.random() * 100) + 1;
-    let urinishSoni = 0;
-    let topildi = false;
-    
-    while (!topildi) {
-      let kiritilganSon = Number(prompt("1 dan 100 gacha son kiriting:"));
-      urinishSoni++;
-    
-      if (kiritilganSon == oylanganSon) {
-        topildi = true;
-        console.log("Tabriklaymiz, siz to'g'ri topdingiz! Siz " + urinishSoni + " marta urinib ko'rdingiz.");
-      } else if (kiritilganSon > oylanganSon) {
-        console.log("Kichikroq son kiriting");
-      } else {
-        console.log("Kattaroq son kiriting");
-      }
-    }
-    ```
 
 </details>
 
@@ -530,29 +394,14 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
 * **1-vazifa:  "To'liq ism"**
     * Ism va familiyani qabul qilib, to'liq ismni qaytaradigan funksiya yarating.
 
-    ```javascript
-    function toliqIsm(ism, familiya) {
-      return ism + " " + familiya;
-    }
-    ```
 
 * **2-vazifa:  "Sonlar o'rtacha qiymati"**
     * Ikkita sonni qabul qilib, ularning o'rtacha qiymatini qaytaradigan funksiya yarating.
 
-    ```javascript
-    function ortachaQiymat(son1, son2) {
-      return (son1 + son2) / 2;
-    }
-    ```
 
 * **3-vazifa:  "Matn uzunligi"**
     * Matnni qabul qilib, uning uzunligini qaytaradigan funksiya yarating.
 
-    ```javascript
-    function matnUzunligi(matn) {
-      return matn.length;
-    }
-    ```
 
 **(Murakkabroq vazifalar)**
 
@@ -560,44 +409,15 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Sonni qabul qilib, uning tub son yoki yo'qligini aniqlaydigan funksiya yarating.
     * Tub son - bu faqat 1 ga va o'ziga bo'linadigan natural son.
 
-    ```javascript
-    function tubSonmi(son) {
-      if (son <= 1) {
-        return false;
-      }
-      for (let i = 2; i <= Math.sqrt(son); i++) {
-        if (son % i == 0) {
-          return false;
-        }
-      }
-      return true;
-    }
-    ```
 
 * **5-vazifa:  "Teskari son"**
     * Sonni qabul qilib, uni teskari tartibda qaytaradigan funksiya yarating.
     * Masalan, agar 123 soni kiritilsa, funksiya 321 ni qaytarishi kerak.
 
-    ```javascript
-    function teskariSon(son) {
-      let teskari = 0;
-      while (son > 0) {
-        teskari = (teskari * 10) + (son % 10);
-        son = Math.floor(son / 10);
-      }
-      return teskari;
-    }
-    ```
 
 * **6-vazifa:  "So'zlarni sanash"**
     * Matnni qabul qilib, undagi so'zlar sonini qaytaradigan funksiya yarating.
 
-    ```javascript
-    function sozlarniSanash(matn) {
-      let sozlar = matn.split(" ");
-      return sozlar.length;
-    }
-    ```
 </details>
 
 
@@ -679,48 +499,18 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * JavaScript faylingizda tugma (`<button>`) yarating.
     * Tugma bosilganda, rasmning `src` atributi o'zgarsin va boshqa rasm ko'rsatilsin.
 
-    ```javascript
-    let rasm = document.querySelector("img");
-    let tugma = document.querySelector("button");
-    
-    tugma.onclick = function() {
-      rasm.src = "yangi-rasm.jpg";
-    }
-    ```
 
 * **2-vazifa:  "Ro'yxatga element qo'shish"**
     * HTML faylingizda ro'yxat (`<ul>` yoki `<ol>`) yarating.
     * JavaScript faylingizda tugma (`<button>`) yarating.
     * Tugma bosilganda, ro'yxatga yangi element (`<li>`) qo'shilsin.
 
-    ```javascript
-    let ro'yxat = document.querySelector("ul");
-    let tugma = document.querySelector("button");
-    
-    tugma.onclick = function() {
-      let yangiElement = document.createElement("li");
-      yangiElement.textContent = "Yangi element";
-      ro'yxat.appendChild(yangiElement);
-    }
-    ```
 
 * **3-vazifa:  "Matnni yashirish va ko'rsatish"**
     * HTML faylingizda matn (`<p>`) va tugma (`<button>`) yarating.
     * JavaScript faylingizda tugma bosilganda matnni yashiradigan va ko'rsatadigan kod yozing.
     * Matnni yashirish uchun `style.display = "none";` xossasidan, ko'rsatish uchun esa `style.display = "block";` xossasidan foydalaning.
 
-    ```javascript
-    let matn = document.querySelector("p");
-    let tugma = document.querySelector("button");
-    
-    tugma.onclick = function() {
-      if (matn.style.display == "none") {
-        matn.style.display = "block";
-      } else {
-        matn.style.display = "none";
-      }
-    }
-    ```
 </details>
 
 
@@ -831,67 +621,17 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * `addEventListener()` metodi yordamida tugmaga `click` hodisasi tinglovchisini biriktiring.
     * Tugma bosilganda, o'zgaruvchining qiymatini 1 ga oshiring va yangi qiymatni `<p>` elementida ko'rsating.
 
-    ```javascript
-    // HTML
-    <button id="myButton">Bosish</button>
-    <p id="counter">0</p>
-
-    // JavaScript
-    let counter = 0;
-    let counterElement = document.getElementById("counter");
-    let button = document.getElementById("myButton");
-
-    button.addEventListener("click", function() {
-      counter++;
-      counterElement.textContent = counter;
-    });
-    ```
-
 * **2-vazifa:  "Rasmni almashtirish"**
     * HTML faylingizda ikkita rasm (`<img>`) qo'shing, lekin faqat bittasini ko'rsating.
     * JavaScript faylingizda tugma (`<button>`) yarating.
     * Tugma bosilganda, ko'rinib turgan rasmni yashiring va ikkinchi rasmni ko'rsating.
 
-    ```javascript
-    // HTML (faqat bitta rasm ko'rinadi)
-    <img id="rasm1" src="rasm1.jpg" alt="Rasm 1">
-    <img id="rasm2" src="rasm2.jpg" alt="Rasm 2" style="display: none;">
-    <button id="almashtirishTugmasi">Almashtirish</button>
-
-    // JavaScript
-    let rasm1 = document.getElementById("rasm1");
-    let rasm2 = document.getElementById("rasm2");
-    let tugma = document.getElementById("almashtirishTugmasi");
-
-    tugma.addEventListener("click", function() {
-      if (rasm1.style.display == "none") {
-        rasm1.style.display = "block";
-        rasm2.style.display = "none";
-      } else {
-        rasm1.style.display = "none";
-        rasm2.style.display = "block";
-      }
-    });
-    ```
 
 * **3-vazifa:  "Matnni o'zgartirish"**
     * HTML faylingizda matn (`<p>`) va tugma (`<button>`) yarating.
     * JavaScript faylingizda tugma bosilganda matnni o'zgartiradigan kod yozing.
     * Masalan, "Salom, Dunyo!" matnini "Xayr, Dunyo!" ga o'zgartiring.
 
-    ```javascript
-    // HTML
-    <p id="myText">Salom, Dunyo!</p>
-    <button id="changeTextButton">O'zgartirish</button>
-
-    // JavaScript
-    let matn = document.getElementById("myText");
-    let tugma = document.getElementById("changeTextButton");
-
-    tugma.addEventListener("click", function() {
-      matn.textContent = "Xayr, Dunyo!";
-    });
-    ```
 
 **(Murakkabroq vazifalar)**
 
@@ -901,18 +641,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Sichqoncha elementi ustida harakatlanganda, sichqonchaning koordinatalarini (x va y) konsolga chiqaring.
     * Qo'shimcha: Sichqonchaning koordinatalarini `<div>` elementi ichida ham ko'rsating.
 
-    ```javascript
-    // HTML
-    <div id="myDiv" style="width: 300px; height: 200px; border: 1px solid black;"></div>
-
-    // JavaScript
-    let div = document.getElementById("myDiv");
-
-    div.addEventListener("mousemove", function(event) {
-      console.log("x: " + event.clientX + ", y: " + event.clientY);
-      this.textContent = "x: " + event.clientX + ", y: " + event.clientY;
-    });
-    ```
 
 * **5-vazifa:  "Tugma bilan hisoblagich"**
     * HTML faylingizda ikkita tugma ("+" va "-") va sonni ko'rsatadigan element (`<p>`) yarating.
@@ -922,28 +650,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * "-" tugmasi bosilganda, o'zgaruvchining qiymatini 1 ga kamaytiring.
     * O'zgaruvchining yangi qiymatini `<p>` elementida ko'rsating.
 
-    ```javascript
-    // HTML
-    <button id="plusButton">+</button>
-    <p id="counter">0</p>
-    <button id="minusButton">-</button>
-
-    // JavaScript
-    let counter = 0;
-    let counterElement = document.getElementById("counter");
-    let plusButton = document.getElementById("plusButton");
-    let minusButton = document.getElementById("minusButton");
-
-    plusButton.addEventListener("click", function() {
-      counter++;
-      counterElement.textContent = counter;
-    });
-
-    minusButton.addEventListener("click", function() {
-      counter--;
-      counterElement.textContent = counter;
-    });
-    ```
 
 * **6-vazifa:  "Klaviatura hodisalari"**
     * HTML faylingizda matn maydoni (`<input type="text">`) yarating.
@@ -953,21 +659,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
         * Bosigan tugmaning kodi (`event.code`).
         * Bosigan tugmaning nomi (`event.key`).
 
-    ```javascript
-    // HTML
-    <input type="text" id="myInput">
-
-    // JavaScript
-    let input = document.getElementById("myInput");
-
-    input.addEventListener("keydown", function(event) {
-      console.log("Hodisa: " + event.type);
-      console.log("Tugma kodi: " + event.code);
-      console.log("Tugma nomi: " + event.key);
-    });
-
-    // keyup va keypress uchun ham xuddi shunday kod yozing
-    ```
 
 </details>
 
@@ -1076,46 +767,16 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Sonlar massivini yarating.
     * Massivdagi eng katta sonni toping va konsolga chiqaring.
 
-    ```javascript
-    let sonlar = [5, 12, 3, 8, 1];
-    let engKatta = sonlar[0];
-    
-    for (let i = 1; i < sonlar.length; i++) {
-      if (sonlar[i] > engKatta) {
-        engKatta = sonlar[i];
-      }
-    }
-    
-    console.log("Eng katta son: " + engKatta); // 12
-    ```
 
 * **2-vazifa:  "O'rtacha qiymat"**
     * Sonlar massivini yarating.
     * Massivdagi sonlarning o'rtacha qiymatini hisoblang va konsolga chiqaring.
 
-    ```javascript
-    let sonlar = [10, 20, 30, 40, 50];
-    let yigindi = 0;
-    
-    for (let i = 0; i < sonlar.length; i++) {
-      yigindi += sonlar[i];
-    }
-    
-    let ortacha = yigindi / sonlar.length;
-    console.log("O'rtacha qiymat: " + ortacha); // 30
-    ```
 
 * **3-vazifa:  "Teskari massiv"**
     * Matnlar massivini yarating.
     * Massivni teskari tartibda konsolga chiqaring.
 
-    ```javascript
-    let sozlar = ["salom", "dunyo", "qalesan"];
-    
-    for (let i = sozlar.length - 1; i >= 0; i--) {
-      console.log(sozlar[i]);
-    }
-    ```
 
 **(Murakkabroq vazifalar)**
 
@@ -1123,55 +784,15 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Massivda takrorlanadigan elementlarni olib tashlang.
     * Masalan, `[1, 2, 2, 3, 4, 4, 5]` massivini `[1, 2, 3, 4, 5]` ga o'zgartiring.
 
-    ```javascript
-    let sonlar = [1, 2, 2, 3, 4, 4, 5];
-    let yangiSonlar = [];
-    
-    for (let i = 0; i < sonlar.length; i++) {
-      if (yangiSonlar.indexOf(sonlar[i]) == -1) {
-        yangiSonlar.push(sonlar[i]);
-      }
-    }
-    
-    console.log(yangiSonlar); // [1, 2, 3, 4, 5]
-    ```
 
 * **5-vazifa:  "Massivni saralash"**
     * Sonlar massivini o'sish tartibida saralang.
 
-    ```javascript
-    let sonlar = [5, 2, 8, 1, 9];
-    
-    for (let i = 0; i < sonlar.length - 1; i++) {
-      for (let j = i + 1; j < sonlar.length; j++) {
-        if (sonlar[i] > sonlar[j]) {
-          let temp = sonlar[i];
-          sonlar[i] = sonlar[j];
-          sonlar[j] = temp;
-        }
-      }
-    }
-    
-    console.log(sonlar); // [1, 2, 5, 8, 9]
-    ```
 
 * **6-vazifa:  "Ikki o'lchamli massiv"**
     * Ikki o'lchamli massiv yarating (massivlar massivi).
     * Massiv elementlarini konsolga chiqaring.
 
-    ```javascript
-    let massiv = [
-      [1, 2, 3],
-      [4, 5, 6],
-      [7, 8, 9]
-    ];
-    
-    for (let i = 0; i < massiv.length; i++) {
-      for (let j = 0; j < massiv[i].length; j++) {
-        console.log(massiv[i][j]);
-      }
-    }
-    ```
 
 </details>
 
@@ -1285,35 +906,12 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Kitob haqidagi ma'lumotlarni saqlaydigan obyekt yarating (nomi, muallifi, nashr yili, janri).
     * Obyektning barcha xossalarini konsolga chiqaring.
 
-    ```javascript
-    let kitob = {
-      nomi: "O'tkan kunlar",
-      muallifi: "Abdulla Qodiriy",
-      nashrYili: 1926,
-      janri: "roman"
-    };
-    
-    console.log(kitob);
-    ```
 
 * **2-vazifa:  "Hayvon obyekti"**
     * Hayvon haqidagi ma'lumotlarni saqlaydigan obyekt yarating (turi, nomi, yoshi, rangi).
     * Obyektga `ovozChiqar()` nomli metod qo'shing.
     * Bu metod hayvonning ovozini konsolga chiqarsin (masalan, "miyov" yoki "vov").
 
-    ```javascript
-    let mushuk = {
-      turi: "mushuk",
-      nomi: "Barsik",
-      yoshi: 3,
-      rangi: "oq",
-      ovozChiqar: function() {
-        console.log("Miyov!");
-      }
-    };
-    
-    mushuk.ovozChiqar();
-    ```
 
 **(Murakkabroq vazifalar)**
 
@@ -1322,58 +920,11 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Har bir obyektda talabaning ismi, familiyasi, yoshi va baholari massivi bo'lsin.
     * Har bir talaba uchun uning o'rtacha bahosini hisoblang va konsolga chiqaring.
 
-    ```javascript
-    let talabalar = [
-      { ism: "Ali", familiya: "Valiyev", yosh: 20, baholar: [4, 5, 3, 5] },
-      { ism: "Vali", familiya: "Aliyev", yosh: 21, baholar: [5, 5, 4, 5] },
-      { ism: "Olim", familiya: "Hakimov", yosh: 19, baholar: [3, 4, 4, 3] }
-    ];
-    
-    for (let i = 0; i < talabalar.length; i++) {
-      let talaba = talabalar[i];
-      let yigindi = 0;
-      for (let j = 0; j < talaba.baholar.length; j++) {
-        yigindi += talaba.baholar[j];
-      }
-      let ortachaBaho = yigindi / talaba.baholar.length;
-      console.log(talaba.ism + " " + talaba.familiya + "ning o'rtacha bahosi: " + ortachaBaho);
-    }
-    ```
 
 * **4-vazifa:  "Mahsulotlar katalogi"**
     * Mahsulotlar haqidagi ma'lumotlarni saqlaydigan obyektlar massivini yarating.
     * Har bir obyektda mahsulotning nomi, narxi, tavsifi va rasmi bo'lsin.
     * Ushbu ma'lumotlarni HTML da jadval ko'rinishida chiqaring.
     * JavaScript yordamida mahsulotlarni narx bo'yicha saralang.
-
-    ```javascript
-    let mahsulotlar = [
-      { nom: "Olma", narx: 1000, tavsif: "Qizil olma", rasm: "olma.jpg" },
-      { nom: "Banan", narx: 1500, tavsif: "Sariq banan", rasm: "banan.jpg" },
-      { nom: "Anor", narx: 2000, tavsif: "Shirin anor", rasm: "anor.jpg" }
-    ];
-    
-    // Mahsulotlarni narx bo'yicha saralash
-    mahsulotlar.sort(function(a, b) {
-      return a.narx - b.narx;
-    });
-    
-    // Jadvalni yaratish (HTML)
-    let jadval = "<table>";
-    jadval += "<tr><th>Nom</th><th>Narx</th><th>Tavsif</th><th>Rasm</th></tr>";
-    for (let i = 0; i < mahsulotlar.length; i++) {
-      let mahsulot = mahsulotlar[i];
-      jadval += "<tr>";
-      jadval += "<td>" + mahsulot.nom + "</td>";
-      jadval += "<td>" + mahsulot.narx + "</td>";
-      jadval += "<td>" + mahsulot.tavsif + "</td>";
-      jadval += "<td><img src='" + mahsulot.rasm + "' alt='" + mahsulot.nom + "'></td>";
-      jadval += "</tr>";
-    }
-    jadval += "</table>";
-    
-    // Jadvalni HTML ga qo'shish
-    document.body.innerHTML = jadval;
-    ```
 
 </details>

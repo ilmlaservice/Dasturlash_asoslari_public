@@ -177,31 +177,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Bo'limlarga sarlavhalar (`<h2>` yoki `<h3>`) qo'shing.
     * Har bir bo'limda mashg'ulot haqida batafsil ma'lumot bering, rasmlar qo'shing va tegishli veb-saytlarga havolalar bering.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-        <meta charset="UTF-8">
-        <title>Mening sevimli mashg'ulotlarim</title>
-    </head>
-    <body>
-        <h1>Mening sevimli mashg'ulotlarim</h1>
-    
-        <div>
-            <h2>Kitob o'qish</h2>
-            <p>Menga turli xil kitoblar o'qish yoqadi. Ayniqsa fantastika va detektiv janridagi kitoblarni yoqtiraman.</p>
-            <img src="kitob.jpg" alt="Kitob">
-        </div>
-    
-        <div>
-            <h2>Musiqa tinglash</h2>
-            <p>Men turli xil musiqalarni tinglayman. Klassik musiqadan tortib, zamonaviy pop musiqagacha.</p>
-            <a href="https://spotify.com">Spotify</a> da musiqa tinglashni yoqtiraman.
-        </div>
-    
-    </body>
-    </html>
-    ```
 
 * **2-vazifa:  "Mening oilam"**
     * "Mening oilam" (My family / Моя семья) deb nomlangan veb-sahifa yarating.
@@ -211,31 +186,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Har bir bo'limda oila a'zolaringiz haqida qisqacha ma'lumot bering, rasmlar qo'shing.
     * Oila a'zolaringizning sevimli mashg'ulotlari yoki qiziqishlari haqida ro'yxatlar (`<ul>` yoki `<ol>`) yarating.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-        <meta charset="UTF-8">
-        <title>Mening oilam</title>
-    </head>
-    <body>
-        <h1>Mening oilam</h1>
-    
-        <div>
-            <h2>Otam</h2>
-            <img src="otam.jpg" alt="Otam">
-            <p>Otamning ismi ... . U ... kasbida ishlaydi.</p>
-        </div>
-    
-        <div>
-            <h2>Onam</h2>
-            <img src="onam.jpg" alt="Onam">
-            <p>Onamning ismi ... . U ... kasbida ishlaydi.</p>
-        </div>
-    
-    </body>
-    </html>
-    ```
 
 * **3-vazifa:  "Mening maktabim"**
     * "Mening maktabim" (My school / Моя школа) deb nomlangan veb-sahifa yarating.
@@ -245,30 +195,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Maktabingizning veb-saytiga havola qo'shing (agar mavjud bo'lsa).
     * Maktabingiz haqida qo'shimcha ma'lumotlarni (manzili, telefon raqami, email manzili) alohida bo'limda ko'rsating.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-        <meta charset="UTF-8">
-        <title>Mening maktabim</title>
-    </head>
-    <body>
-        <h1>Mening maktabim</h1>
-        <img src="maktab.jpg" alt="Maktabim">
-        <p>Men ... maktabida o'qiyman. Bu maktab ... da joylashgan.</p>
-    
-        <h2>Sevimli fanlarim</h2>
-        <ol>
-            <li>Matematika</li>
-            <li>Fizika</li>
-            <li>Informatika</li>
-        </ol>
-    
-        <a href="https://maktab.uz">Maktab veb-sayti</a>
-    
-    </body>
-    </html>
-    ```
 </details>
 
 <!-- 2 -->
@@ -466,40 +392,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Har bir kitob uchun alohida qator (`<tr>`) yarating.
     * Kitob nomlari uchun `<th>` (table header) tegini ishlating.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-      <meta charset="UTF-8">
-      <title>Mening sevimli kitoblarim</title>
-    </head>
-    <body>
-      <h1>Mening sevimli kitoblarim</h1>
-    
-      <table border="1">
-        <tr>
-          <th>Kitob nomi</th>
-          <th>Muallif</th>
-          <th>Nashr yili</th>
-          <th>Janr</th>
-        </tr>
-        <tr>
-          <td>O'tkan kunlar</td>
-          <td>Abdulla Qodiriy</td>
-          <td>1926</td>
-          <td>Roman</td>
-        </tr>
-        <tr>
-          <td>Mehrobdan chayon</td>
-          <td>Abdulla Qodiriy</td>
-          <td>1929</td>
-          <td>Roman</td>
-        </tr>
-        </table>
-    
-    </body>
-    </html>
-    ```
 
 * **2-vazifa:  "Ro'yxatdan o'tish formasi"**
     * Foydalanuvchilar ro'yxatdan o'tishi uchun forma yarating.
@@ -514,29 +406,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
         * "Ro'yxatdan o'tish" tugmasi (`<button type="submit">`)
     * Har bir maydon uchun tegishli yorliq (`<label>`) qo'shing.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-      <meta charset="UTF-8">
-      <title>Ro'yxatdan o'tish formasi</title>
-    </head>
-    <body>
-      <h1>Ro'yxatdan o'tish</h1>
-    
-      <form>
-        <label for="username">Foydalanuvchi nomi:</label>
-        <input type="text" id="username" name="username"><br><br>
-    
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-    
-        <button type="submit">Ro'yxatdan o'tish</button>
-      </form>
-    
-    </body>
-    </html>
-    ```
 
 * **3-vazifa:  "Restoran menyusi"**
     * Restoran menyusi uchun veb-sahifa yarating.
@@ -545,38 +414,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Turli xil taomlarni (masalan, salatlar, sho'rvalar, asosiy taomlar, desertlar) alohida bo'limlarda ko'rsating.
     * Har bir bo'lim uchun sarlavha (`<h2>` yoki `<h3>`) qo'shing.
     * Rasmlarni qo'shishni unutmang.
-
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-      <meta charset="UTF-8">
-      <title>Restoran menyusi</title>
-    </head>
-    <body>
-      <h1>Restoran menyusi</h1>
-    
-      <h2>Salatlar</h2>
-      <table border="1">
-        <tr>
-          <th>Nom</th>
-          <th>Narx</th>
-          <th>Tavsif</th>
-        </tr>
-        <tr>
-          <td>Sezar salati</td>
-          <td>15000 so'm</td>
-          <td>Tovuq go'shti, parmezan pishlog'i va kruto'nlar bilan</td>
-        </tr>
-        </table>
-    
-      <h2>Sho'rvalar</h2>
-      <table border="1">
-        </table>
-    
-      </body>
-    </html>
-    ```
 
 </details>
 
@@ -697,21 +534,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Havolalarga `title` atributi qo'shing.
     * Tegishli elementlarga `class` va `id` atributlarini qo'shing.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-        <meta charset="UTF-8">
-        <title>Men haqimda</title>
-    </head>
-    <body>
-        <h1 id="main-heading">Men haqimda</h1>
-        <img src="mening_rasmim.jpg" alt="Mening rasmim" width="200" height="300">
-        <p>Mening ismim ... . Men ... yoshdaman.</p>
-        <a href="https://sevimli_saytim.uz" title="Sevimli saytim">Sevimli saytimga tashrif buyuring</a>
-    </body>
-    </html>
-    ```
 
 * **2-vazifa:  Dars jadvali**
     * Dars jadvalingizni jadval (`<table>`) ko'rinishida yarating.
@@ -719,46 +541,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Har bir katakchada dars nomini yozing.
     * Jadvalga `border`, `cellpadding`, `cellspacing` va `width` atributlarini qo'shing.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-      <meta charset="UTF-8">
-      <title>Dars jadvali</title>
-    </head>
-    <body>
-      <h1>Dars jadvali</h1>
-    
-      <table border="1" cellpadding="10" cellspacing="0" width="80%">
-        <tr>
-          <th>Dars vaqti</th>
-          <th>Dushanba</th>
-          <th>Seshanba</th>
-          <th>Chorshanba</th>
-          <th>Payshanba</th>
-          <th>Juma</th>
-        </tr>
-        <tr>
-          <td>08:00 - 08:45</td>
-          <td>Matematika</td>
-          <td>Ona tili</td>
-          <td>Ingliz tili</td>
-          <td>Fizika</td>
-          <td>Tarix</td>
-        </tr>
-        <tr>
-          <td>08:50 - 09:35</td>
-          <td>Fizika</td>
-          <td>Adabiyot</td>
-          <td>Kimyo</td>
-          <td>Biologiya</td>
-          <td>Geografiya</td>
-        </tr>
-        </table>
-    
-    </body>
-    </html>
-    ```
 
 * **3-vazifa:  Anketa formasi**
     * HTML forma (`<form>`) yordamida anketa yarating.
@@ -773,29 +555,7 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
         * Qiziqishlar (`<textarea>`). `placeholder` atributidan foydalanib, "Qiziqishlaringizni yozing" kabi ko'rsatma bering.
     * Formada "Yuborish" tugmasi (`<button type="submit">`) bo'lsin.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-      <meta charset="UTF-8">
-      <title>Anketa</title>
-    </head>
-    <body>
-      <h1>Anketa</h1>
-    
-      <form>
-        <label for="ism">Ism:</label>
-        <input type="text" id="ism" name="ism" placeholder="Ismingizni kiriting"><br><br>
-    
-        <label for="familiya">Familiya:</label>
-        <input type="text" id="familiya" name="familiya"><br><br>
-    
-        <button type="submit">Yuborish</button>
-      </form>
-    
-    </body>
-    </html>
-    ```
+
 </details>
 
 
@@ -903,39 +663,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Navigatsiya menyusida (`<nav>`) boshqa sahifalarga (masalan, "Bosh sahifa", "Blog", "Aloqa") havolalar qo'shing.
     * Asosiy ma'lumotni `<main>` tegi ichiga joylashtiring.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-        <meta charset="UTF-8">
-        <title>Men haqimda</title>
-    </head>
-    <body>
-    
-        <header>
-            <h1>Men haqimda</h1>
-            <nav>
-            <ul>
-                <li><a href="#">Bosh sahifa</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Aloqa</a></li>
-            </ul>
-            </nav>
-        </header>
-    
-        <main>
-            <img src="mening_rasmim.jpg" alt="Mening rasmim" width="200" height="300">
-            <p>Mening ismim ... . Men ... yoshdaman.</p>
-            <a href="https://sevimli_saytim.uz" title="Sevimli saytim">Sevimli saytimga tashrif buyuring</a>
-        </main>
-    
-        <footer>
-            <p>&copy; 2024 Mening saytim</p>
-        </footer>
-    
-    </body>
-    </html>
-    ```
 
 * **2-vazifa:  Blog postini semantik teglar bilan yarating**
     * Blog postiga o'xshash veb-sahifani yarating.
@@ -946,44 +673,7 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Blog postingizga tegishli rasm qo'shing.
     * Blog postingiz oxirida o'zingiz haqingizda qisqacha ma'lumot va ijtimoiy tarmoqlaringizga havolalarni qo'shing.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-        <meta charset="UTF-8">
-        <title>Blog Post</title>
-    </head>
-    <body>
-        <header>
-            <h1>Mening blogim</h1>
-            <nav>
-            <ul>
-                <li><a href="#">Bosh sahifa</a></li>
-                <li><a href="#">Maqolalar</a></li>
-                <li><a href="#">Aloqa</a></li>
-            </ul>
-            </nav>
-        </header>
     
-        <main>
-            <article>
-                <h2>Maqola sarlavhasi</h2>
-                <p>Maqola matni...</p>
-            </article>
-        
-            <aside>
-                <h3>Muallif haqida</h3>
-                <p>Qo'shimcha ma'lumot...</p>
-            </aside>
-        </main>
-    
-        <footer>
-            <p>Mualliflik huquqi &copy; 2024</p>
-        </footer>
-    
-    </body>
-    </html>
-    ```
 
 * **3-vazifa:  Mahsulot sahifasini semantik teglar bilan yarating**
     * Onlayn do'kon uchun mahsulot sahifasini yarating.
@@ -993,48 +683,4 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Narxini va "Sotib olish" tugmasini qo'shing.
     * Yon panelda (`<aside>`) mahsulot haqida qo'shimcha ma'lumot yoki boshqa mahsulotlarni tavsiya qiling.
 
-    ```html
-    <!DOCTYPE html>
-    <html lang="uz">
-    <head>
-        <meta charset="UTF-8">
-        <title>Mahsulot</title>
-    </head>
-    <body>
-        <header>
-            <h1>Onlayn do'kon</h1>
-            <nav>
-            <ul>
-                <li><a href="#">Bosh sahifa</a></li>
-                <li><a href="#">Katalog</a></li>
-                <li><a href="#">Aloqa</a></li>
-            </ul>
-            </nav>
-        </header>
-    
-        <main>
-            <article>
-                <h1>Mahsulot nomi</h1>
-                <img src="mahsulot.jpg" alt="Mahsulot">
-                <p>Mahsulot tavsifi...</p>
-                <p>Narxi: 10000 so'm</p>
-                <button>Sotib olish</button>
-            </article>
-        
-            <aside>
-                <h3>Tavsiya etilgan mahsulotlar</h3>
-                <ul>
-                    <li>Mahsulot 1</li>
-                    <li>Mahsulot 2</li>
-                </ul>
-            </aside>
-        </main>
-    
-        <footer>
-            <p>Mualliflik huquqi &copy; 2024</p>
-        </footer>
-    
-    </body>
-    </html>
-    ```
 </details>

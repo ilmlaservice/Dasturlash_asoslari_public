@@ -190,26 +190,8 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
         * Rasmlarga kenglik va balandlik bering.
         * Har bir bo'limga chegara qo'shing.
 
-    **Kod namunasi:** (bu yerda faqat CSS stillari uchun namuna keltirilgan)
 
-    ```css
-    body {
-      background-color: #f0f0f5; /* Juda och kulrang fon */
-    }
     
-    h3 { /* Taom nomlari uchun stil */
-      font-family: 'Courier New', monospace;
-      color: #8B4513; /* Jigarrang rang */
-      font-size: 20px;
-      text-align: center;
-    }
-    
-    div { /* Har bir taom uchun stil */
-      border: 2px dashed #8B4513;
-      margin: 15px;
-      padding: 10px;
-    }
-    ```
 
 * **2-vazifa:  "Sayohatlarim"**
     * "Sayohatlarim" (My travels / Мои путешествия) deb nomlangan veb-sahifa yarating.
@@ -224,25 +206,7 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
         * Rasmlarga chegara qo'shing va ularning o'lchamlarini moslang.
         * Havolalar uchun rangni va chizilgan chiziqni o'rnating.
 
-    **Kod namunasi:** (bu yerda faqat CSS stillari uchun namuna keltirilgan)
-
-    ```css
-    body {
-      background-image: url("sayohat.jpg"); /* Fon rasmi */
-      background-size: cover; /* Rasmni butun sahifaga yoyish */
-    }
     
-    h2 {
-      font-family: 'Impact', sans-serif;
-      color: white;
-      text-shadow: 2px 2px 4px black; /* Matnga soya qo'shish */
-    }
-    
-    a {
-      color: yellow;
-      font-weight: bold;
-    }
-    ```
 
 * **3-vazifa:  "Mening uy hayvonlarim"**
     * "Mening uy hayvonlarim" (My pets / Мои домашние животные) deb nomlangan veb-sahifa yarating.
@@ -255,27 +219,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
         * Sarlavhalar uchun o'zingiz yoqtirgan shriftni, rangni va o'lchamni tanlang.
         * Xatboshilar uchun matn rangini va shrift o'lchamini o'zgartiring.
         * Rasmlarga chegara qo'shing va ularning o'lchamlarini moslang.
-
-    **Kod namunasi:** (bu yerda faqat CSS stillari uchun namuna keltirilgan)
-
-    ```css
-    body {
-      background-color: #ffe4c4; /* Bej rang fon */
-    }
-    
-    h3 {
-      font-family: 'Lucida Console', monospace;
-      color: #800000; /* To'q qizil rang */
-      font-size: 22px;
-      text-align: right;
-    }
-    
-    img {
-      float: right;
-      margin-left: 10px;
-      border: 4px double #800000;
-    }
-    ```
 
 </details>
 
@@ -394,61 +337,19 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * CSS faylingizda bu elementlarga turli xil matn xossalarini qo'llang.
     * Ranglar, shriftlar, o'lchamlar, qalinlik, hizalanish, bezaklar va qatorlar orasidagi masofa bilan tajriba o'tkazing.
 
-    ```css
-    h1 {
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 48px;
-      font-weight: 900;
-      color: #A52A2A; /* Jigarrang */
-      text-align: center;
-    }
     
-    h2 {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 36px;
-      font-weight: normal;
-      color: #00008B; /* To'q ko'k */
-      text-align: right;
-      text-decoration: underline;
-    }
-    
-    p {
-      font-family: 'Arial', sans-serif;
-      font-size: 16px;
-      color: #2F4F4F; /* To'q kulrang-yashil */
-      line-height: 1.8;
-    }
-    ```
 
 * **2-vazifa:  Iqtibosni stillashtiring**
     * HTML faylingizda iqtibos (`<blockquote>`) yarating.
     * CSS faylingizda iqtibosni stillashtiring.
     * Iqtibosning fon rangini, chegara stilini, matn rangini va shriftini o'zgartiring.
 
-    ```css
-    blockquote {
-      background-color: #f9f9f9;
-      border-left: 5px solid #ccc;
-      padding: 10px;
-      font-style: italic;
-      font-size: 18px;
-    }
-    ```
 
 * **3-vazifa:  Kod bloklarini stillashtiring**
     * HTML faylingizda kod bloklarini (`<code>`) yarating.
     * CSS faylingizda kod bloklarini stillashtiring.
     * Kod bloklarining fon rangini, chegara stilini, matn rangini va shriftini o'zgartiring.
 
-    ```css
-    code {
-      background-color: #eee;
-      border: 1px solid #999;
-      padding: 5px;
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 14px;
-    }
-    ```
 </details>
 
 <details>
@@ -527,25 +428,11 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * CSS faylingizda `linear-gradient()` funksiyasidan foydalanib, bu elementga gradient fon yarating.
     * Gradientning ranglarini, yo'nalishini va boshqa xususiyatlarini o'zgartirib ko'ring.
 
-    ```css
-    div {
-      background: linear-gradient(to right, red, yellow);
-    }
-    ```
 
 * **2-vazifa:  Fon rasmi bilan matnni stillashtiring.**
     * HTML faylingizda fon rasmi bo'lgan element yarating va uning ichida matn qo'shing.
     * CSS faylingizda matn rangini va soyasini (`text-shadow`) o'rnatib, matnni fon rasmi ustida yaxshi ko'rinishini ta'minlang.
 
-    ```css
-    div {
-      background-image: url("fon.jpg");
-      background-size: cover;
-      color: white;
-      text-shadow: 2px 2px 4px black;
-      padding: 20px;
-    }
-    ```
 
 * **3-vazifa:  Shaxsiy veb-saytni fon rasmlari bilan bezang.**
     * Oldingi darslarda yaratgan "Men haqimda" sahifasini fon rasmlari bilan bezang.
@@ -655,34 +542,12 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * CSS faylingizda tugmani stillashtiring.
     * Tugmaga chegara qo'shing, fon rangini o'zgartiring, matn rangini o'zgartiring, burchaklarni yumaloq qiling.
 
-    ```css
-    button {
-      background-color: #4CAF50; /* Yashil */
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      border-radius: 5px;
-    }
-    ```
 
 * **2-vazifa:  Kartani stillashtiring.**
     * HTML faylingizda karta (card / карточка) yarating. Kartada rasm, sarlavha va matn bo'lishi mumkin.
     * CSS faylingizda kartani stillashtiring.
     * Kartaga chegara qo'shing, fon rangini o'zgartiring, burchaklarni yumaloq qiling, soyani qo'shing (`box-shadow`).
 
-    ```css
-    .card {
-      background-color: white;
-      border: 1px solid #ccc;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    }
-    ```
 
 * **3-vazifa:  Shaxsiy veb-saytni stillashtiring.**
     * Oldingi darslarda yaratgan "Men haqimda" sahifasini CSS yordamida yanada stillashtiring.
@@ -786,31 +651,11 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * HTML faylingizda bir nechta rasmlarni (`<img>`) qo'shing.
     * CSS faylingizda `margin` va `padding` xossalaridan foydalanib, rasmlar orasidagi bo'sh joyni sozlang.
 
-    ```css
-    img {
-      width: 200px;
-      margin: 10px;
-    }
-    ```
 
 * **2-vazifa:  Navigatsiya menyusini yarating.**
     * HTML faylingizda navigatsiya menyusini yarating (`<nav>` va `<ul>`).
     * CSS faylingizda `margin` va `padding` xossalaridan foydalanib, menyu elementlari orasidagi bo'sh joyni sozlang.
 
-    ```css
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    nav li {
-      display: inline-block;
-      margin: 0 10px;
-      padding: 5px;
-      background-color: lightblue;
-    }
-    ```
 
 * **3-vazifa:  Shaxsiy veb-saytni stillashtiring.**
     * Oldingi darslarda yaratgan "Men haqimda" sahifasini CSS yordamida yanada stillashtiring.
@@ -898,45 +743,12 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * CSS faylingizda `position: fixed;` xossasidan foydalanib, tugmani sahifaning pastki o'ng burchagiga joylashtiring.
     * Tugmani stillashtiring.
 
-    ```css
-    .floating-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #4CAF50; /* Yashil */
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    ```
 
 * **2-vazifa:  Modal oyna yarating.**
     * HTML faylingizda modal oyna (modal window / модальное окно) yarating. Modal oyna odatda sahifaning ustida paydo bo'ladigan va foydalanuvchi uni yopmaguncha boshqa elementlar bilan ishlashga xalaqit beradigan oyna.
     * CSS faylingizda `position: fixed;` va `z-index` xossalaridan foydalanib, modal oynani joylashtiring va uni boshqa elementlar ustida ko'rsating.
     * JavaScript yordamida modal oynani ochish va yopish funksiyasini qo'shing.
 
-    ```css
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1; /* Modal oynani boshqa elementlar ustida ko'rsatish */
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0,0,0,0.4); /* Qora fon, shaffoflik bilan */
-    }
-    
-    .modal-content {
-      background-color: #fefefe;
-      margin: 15% auto;
-      padding: 20px;
-      border: 1px solid #888;
-      width: 80%;
-    }
-    ```
 
 * **3-vazifa:  Shaxsiy veb-saytni joylashtirish bilan yaxshilang.**
     * Oldingi darslarda yaratgan "Men haqimda" sahifasini CSS yordamida yanada stillashtiring.
@@ -1300,52 +1112,17 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * HTML faylingizda jadval yarating (`<table>`).
     * CSS faylingizda pseudo-klasslardan foydalanib, jadvalning birinchi va oxirgi qatorlarini, shuningdek, juft va toq qatorlarini turli xil stillarda ajratib ko'rsating.
 
-    ```css
-    tr:first-child {
-      background-color: #f2f2f2;
-    }
-    
-    tr:last-child {
-      font-weight: bold;
-    }
-    
-    tr:nth-child(even) {
-      background-color: #f9f9f9;
-    }
-    ```
 
 * **2-vazifa:  Shaklni stillashtiring.**
     * HTML faylingizda shakl yarating (`<form>`).
     * CSS faylingizda pseudo-klasslardan foydalanib, shakl maydonlarini (`<input>`, `<textarea>`) fokuslanganda, hover qilinganda va xatolik yuz berganda stillashtiring.
 
-    ```css
-    input:focus, textarea:focus {
-      border-color: blue;
-    }
-    
-    input:hover, textarea:hover {
-      background-color: #f5f5f5;
-    }
-    
-    input:invalid {
-      border-color: red;
-    }
-    ```
 
 * **3-vazifa:  Dropdown menyu yarating.**
     * HTML faylingizda dropdown menyu yarating.
     * CSS faylingizda pseudo-klasslardan foydalanib, menyu elementlarini hover qilinganda stillashtiring.
     * Menyuni ochish va yopish uchun JavaScript dan foydalaning.
 
-    ```css
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-    
-    .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-    ```
 </details>
 
 
@@ -1421,20 +1198,6 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * CSS faylingizda `display: inline-block;` xossasidan foydalanib, menyu elementlarini gorizontal ravishda joylashtiring.
     * Menyuni stillashtiring.
 
-    ```css
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    nav li {
-      display: inline-block;
-      margin: 0 10px;
-      padding: 5px;
-      background-color: lightblue;
-    }
-    ```
 
 * **2-vazifa:  Elementlarni yashiring va ko'rsating.**
     * HTML faylingizda bir nechta elementlar yarating.
@@ -1445,8 +1208,4 @@ O'rganganlaringizni mustahkamlash uchun quyidagi vazifalarni mustaqil bajarib ko
     * Oldingi darslarda yaratgan "Men haqimda" sahifasini CSS yordamida yanada stillashtiring.
     * `display` xossasidan foydalanib, ba'zi elementlarning ko'rinish turini o'zgartiring.
     * `visibility` xossasidan foydalanib, ba'zi elementlarni yashiring.
-</details>
-
-<details>
-   <summary></summary>
 </details>
